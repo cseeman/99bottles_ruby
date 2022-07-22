@@ -1,2 +1,3 @@
 source 'https://rubygems.org'
-gem 'minitest', '~> 5.4'
+gem "minitest", "~> 5.16"
+gem "byebug", "~> 11.1", :groups => [:development, :test]
