@@ -1,4 +1,8 @@
 class Bottles
+  def verses(upper, lower)
+    upper.downto(lower).collect {|number| verse(number)}.join("\n")
+  end
+
   def verse(number)
     case number
     when 0
