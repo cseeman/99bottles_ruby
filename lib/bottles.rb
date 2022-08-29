@@ -7,6 +7,7 @@ class Bottles
     upper.downto(lower).map {|i| verse(i)}.join("\n")
   end
 
+  # flocked five
   def container(number)
     if number == 1
       "bottle"    
@@ -15,6 +16,7 @@ class Bottles
     end
   end
 
+  # flocked five
   def pronoun(number)
     if number == 1
       "it"
@@ -23,6 +25,7 @@ class Bottles
     end
   end
 
+  # flocked five
   def quantity(number)
     if number == 0
       "no more"
@@ -31,6 +34,7 @@ class Bottles
     end
   end
 
+  # flocked five
   def action(number)
     if number == 0
       "Go to the store and buy some more"
@@ -39,6 +43,7 @@ class Bottles
     end
   end
 
+  # flocked five
   def successor(number)
     if number == 0
       99
