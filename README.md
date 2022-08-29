@@ -1,23 +1,14 @@
-# 99 Bottles
+# 99 Bottles of OOP - Ruby
+# 2nd Edition
 
-## Installing Ruby
+## cseeman version
 
-### Windows
+This is a repo of my study through Sandi Metz's amazing book 99 Bottles 99 Bottle of OOP.
 
-There's an installer, it's easy.
-http://rubyinstaller.org/
+I have treated most chapters as seperate branches, so I can build on the changes like what is seen in the book. I did seperate out the original solutions (and my weak attempt at one.) into seperate branches too. I could have kept those as seperate commits, but I like the ease of just switching branches to see the differences.
 
-### Mac
+In my local dev environment I am using Ruby version 3.1.0, and Neovim as my editor.
 
-Newer macs ship with a usable version of Ruby.
+## Original 99 Bottles of OOP
 
-Try `ruby -v` in a terminal window, and if it's 1.9.x or 2.x you're fine.
-
-http://www.railstutorial.org/book/beginning#sec-install_ruby
-http://tutorials.jumpstartlab.com/topics/environment/environment.html
-http://docs.railsbridge.org/installfest/macintosh
-
-### Linux
-
-Ubuntu: http://docs.railsbridge.org/installfest/linux
-https://www.ruby-lang.org/en/installation/
+Original Repo can be found at https://github.com/sandimetz/99bottles_ruby
